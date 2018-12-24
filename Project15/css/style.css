@@ -1,0 +1,32 @@
+*, html,body{list-style: none; margin: 0; padding: 0; text-decoration: none; font-family: "Tahoma";
+font-weight: bold;
+}
+
+.wrap{
+    
+    margin:auto;
+    width: 950px;
+    height: 35px;
+    background: linear-gradient(to top, #95b440, #b0ca5f);
+    border: 1px solid #83963c
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 265px;
+    height: 35px;
+/*    background: #96b540;*/
+}
+ul>li>a{
+    color:white;
+}
+a{
+   
+    height:35px;
+    padding-right: 10px;
+}
+li{
+     height:35px;
+     border-right: 1px solid #84a031;
+}
